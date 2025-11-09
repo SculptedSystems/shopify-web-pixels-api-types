@@ -1,4 +1,4 @@
-import { MoneyV2, DiscountApplication } from "@";
+import { MoneyV2, DiscountApplication } from ".";
 
 export interface DiscountAllocation {
   /**

@@ -1,4 +1,4 @@
-import { FormElement } from "@";
+import { FormElement } from ".";
 
 export interface PixelEventsFormSubmittedData {
   element: FormElement;

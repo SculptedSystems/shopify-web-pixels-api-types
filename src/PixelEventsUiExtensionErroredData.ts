@@ -1,4 +1,4 @@
-import { UiExtensionError } from "@";
+import { UiExtensionError } from ".";
 
 export interface PixelEventsUiExtensionErroredData {
   error: UiExtensionError;

@@ -1,4 +1,4 @@
-import { WebPixelsDocument, WebPixelsNavigator, WebPixelsWindow } from "@";
+import { WebPixelsDocument, WebPixelsNavigator, WebPixelsWindow } from ".";
 
 export interface Context {
   /**

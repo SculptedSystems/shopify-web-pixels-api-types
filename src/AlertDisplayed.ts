@@ -1,4 +1,4 @@
-import { AlertDisplayedType } from "@";
+import { AlertDisplayedType } from ".";
 
 export interface AlertDisplayed {
   /**

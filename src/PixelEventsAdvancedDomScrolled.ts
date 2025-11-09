@@ -1,4 +1,4 @@
-import { EventType, PixelEventsAdvancedDomScrolledData } from "@";
+import { EventType, PixelEventsAdvancedDomScrolledData } from ".";
 
 export interface PixelEventsAdvancedDomScrolled {
   /**

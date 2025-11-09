@@ -1,4 +1,4 @@
-import { EventType, PixelEventsAdvancedDomChangedData } from "@";
+import { EventType, PixelEventsAdvancedDomChangedData } from ".";
 
 export interface PixelEventsAdvancedDomChanged {
   /**

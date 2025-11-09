@@ -1,4 +1,4 @@
-import { GenericElement } from "@";
+import { GenericElement } from ".";
 
 export interface MouseEventData {
   clientX: number;

@@ -1,4 +1,4 @@
-import { Cart, Customer, PurchasingCompany, Shop } from "@";
+import { Cart, Customer, PurchasingCompany, Shop } from ".";
 
 export interface RegisterInitData {
   /**

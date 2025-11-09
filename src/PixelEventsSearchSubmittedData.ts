@@ -1,4 +1,4 @@
-import { SearchResult } from "@";
+import { SearchResult } from ".";
 
 export interface PixelEventsSearchSubmittedData {
   searchResult: SearchResult;

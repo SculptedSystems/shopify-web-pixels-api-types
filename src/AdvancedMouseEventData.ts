@@ -1,4 +1,4 @@
-import { DomNode } from "@";
+import { DomNode } from ".";
 
 export interface AdvancedMouseEventData {
   clientX: number;

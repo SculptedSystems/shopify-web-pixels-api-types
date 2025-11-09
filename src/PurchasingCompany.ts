@@ -1,4 +1,4 @@
-import { PurchasingCompanyCompany, PurchasingCompanyLocation } from "@";
+import { PurchasingCompanyCompany, PurchasingCompanyLocation } from ".";
 
 export interface PurchasingCompany {
   /**

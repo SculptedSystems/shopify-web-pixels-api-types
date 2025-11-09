@@ -1,4 +1,4 @@
-import { Collection } from "@";
+import { Collection } from ".";
 
 export interface PixelEventsCollectionViewedData {
   collection: Collection;

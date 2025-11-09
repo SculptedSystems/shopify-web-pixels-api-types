@@ -91,7 +91,7 @@ export function buildTypeFile(
   const cleanCode = normalizeExtractedCode(extracted.code);
   const refs = findTypeRefs(cleanCode, allNames, extracted.name);
   const importLines =
-    refs.length > 0 ? `import { ${refs.join(", ")} } from "@";\n\n` : "";
+    refs.length > 0 ? `import { ${refs.join(", ")} } from ".";\n\n` : "";
   return `${importLines}${cleanCode}\n`;
 }
 

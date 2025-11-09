@@ -1,4 +1,4 @@
-import { MoneyV2 } from "@";
+import { MoneyV2 } from ".";
 
 export interface CartLineCost {
   /**
