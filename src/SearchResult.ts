@@ -1,4 +1,4 @@
-import { ProductVariant } from "@";
+import { ProductVariant } from ".";
 
 export interface SearchResult {
   productVariants: ProductVariant[];

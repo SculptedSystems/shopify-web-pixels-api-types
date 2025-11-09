@@ -1,4 +1,4 @@
-import { MoneyV2, Product, Image } from "@";
+import { MoneyV2, Product, Image } from ".";
 
 export interface ProductVariant {
   /**

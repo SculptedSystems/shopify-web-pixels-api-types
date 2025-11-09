@@ -1,4 +1,4 @@
-import { Context, EventType, PixelEventsPaymentInfoSubmittedData } from "@";
+import { Context, EventType, PixelEventsPaymentInfoSubmittedData } from ".";
 
 export interface PixelEventsPaymentInfoSubmitted {
   /**

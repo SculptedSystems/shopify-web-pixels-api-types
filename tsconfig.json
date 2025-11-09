@@ -1,13 +1,5 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@": [
-        "./src"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
-    },
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "./dist",

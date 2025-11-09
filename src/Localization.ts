@@ -1,4 +1,4 @@
-import { Country, Language, Market } from "@";
+import { Country, Language, Market } from ".";
 
 export interface Localization {
   /**

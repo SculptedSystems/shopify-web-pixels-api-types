@@ -1,4 +1,4 @@
-import { UiExtensionErrorType } from "@";
+import { UiExtensionErrorType } from ".";
 
 export interface UiExtensionError {
   /**

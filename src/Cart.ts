@@ -1,4 +1,4 @@
-import { Attribute, CartCost, CartLine, Checkout } from "@";
+import { Attribute, CartCost, CartLine, Checkout } from ".";
 
 export interface Cart {
   /**

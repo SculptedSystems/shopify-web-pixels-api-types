@@ -1,4 +1,4 @@
-import { MoneyV2, PricingPercentageValue } from "@";
+import { MoneyV2, PricingPercentageValue } from ".";
 
 export interface DiscountApplication {
   /**

@@ -1,4 +1,4 @@
-import { EventType, PixelEventsFormSubmittedData } from "@";
+import { EventType, PixelEventsFormSubmittedData } from ".";
 
 export interface PixelEventsFormSubmitted {
   /**

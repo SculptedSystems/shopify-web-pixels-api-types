@@ -1,4 +1,4 @@
-import { DomNode, PixelEventsAdvancedDomClipboardDataAction } from "@";
+import { DomNode, PixelEventsAdvancedDomClipboardDataAction } from ".";
 
 export interface PixelEventsAdvancedDomClipboardData {
   /**
