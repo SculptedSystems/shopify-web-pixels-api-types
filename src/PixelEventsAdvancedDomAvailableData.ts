@@ -1,4 +1,4 @@
-import { DomFragment } from "@";
+import { DomFragment } from ".";
 
 export interface PixelEventsAdvancedDomAvailableData {
   /**

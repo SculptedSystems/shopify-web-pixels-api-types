@@ -1,4 +1,4 @@
-import { Checkout } from "@";
+import { Checkout } from ".";
 
 export interface PixelEventsCheckoutContactInfoSubmittedData {
   checkout: Checkout;

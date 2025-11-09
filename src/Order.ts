@@ -1,4 +1,4 @@
-import { OrderCustomer } from "@";
+import { OrderCustomer } from ".";
 
 export interface Order {
   /**

@@ -1,4 +1,4 @@
-import { SellingPlan } from "@";
+import { SellingPlan } from ".";
 
 export interface SellingPlanAllocation {
   /**

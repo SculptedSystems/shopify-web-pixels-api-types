@@ -9,7 +9,7 @@ import {
   Order,
   ShippingRate,
   Transaction,
-} from "@";
+} from ".";
 
 export interface Checkout {
   /**

@@ -1,4 +1,4 @@
-import { ClientRect } from "@";
+import { ClientRect } from ".";
 
 export interface DomNode {
   /**

@@ -1,4 +1,4 @@
-import { EventType, PixelEventsAdvancedDomClipboardData } from "@";
+import { EventType, PixelEventsAdvancedDomClipboardData } from ".";
 
 export interface PixelEventsAdvancedDomClipboard {
   /**

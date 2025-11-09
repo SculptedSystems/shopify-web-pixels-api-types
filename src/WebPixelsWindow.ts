@@ -1,4 +1,4 @@
-import { Location, Screen } from "@";
+import { Location, Screen } from ".";
 
 export interface WebPixelsWindow {
   /**

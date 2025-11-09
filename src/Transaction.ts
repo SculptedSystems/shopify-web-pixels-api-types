@@ -1,4 +1,4 @@
-import { MoneyV2, Checkout, TransactionPaymentMethod } from "@";
+import { MoneyV2, Checkout, TransactionPaymentMethod } from ".";
 
 export interface Transaction {
   /**

@@ -1,4 +1,4 @@
-import { CartLine } from "@";
+import { CartLine } from ".";
 
 export interface PixelEventsProductRemovedFromCartData {
   cartLine: CartLine | null;

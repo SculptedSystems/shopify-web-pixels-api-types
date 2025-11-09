@@ -1,4 +1,4 @@
-import { Context, EventType, PixelEventsProductRemovedFromCartData } from "@";
+import { Context, EventType, PixelEventsProductRemovedFromCartData } from ".";
 
 export interface PixelEventsProductRemovedFromCart {
   /**

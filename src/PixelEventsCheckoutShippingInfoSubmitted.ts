@@ -2,7 +2,7 @@ import {
   Context,
   EventType,
   PixelEventsCheckoutShippingInfoSubmittedData,
-} from "@";
+} from ".";
 
 export interface PixelEventsCheckoutShippingInfoSubmitted {
   /**

@@ -1,4 +1,4 @@
-import { ShopPaymentSettings } from "@";
+import { ShopPaymentSettings } from ".";
 
 export interface Shop {
   /**

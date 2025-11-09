@@ -1,4 +1,4 @@
-import { BrowserCookie, BrowserLocalStorage, BrowserSessionStorage } from "@";
+import { BrowserCookie, BrowserLocalStorage, BrowserSessionStorage } from ".";
 
 export interface Browser {
   /**

@@ -1,4 +1,4 @@
-import { DeliveryOption } from "@";
+import { DeliveryOption } from ".";
 
 export interface Delivery {
   /**

@@ -1,4 +1,4 @@
-import { EventType, PixelEventsAdvancedDomInputBlurredData } from "@";
+import { EventType, PixelEventsAdvancedDomInputBlurredData } from ".";
 
 export interface PixelEventsAdvancedDomInputBlurred {
   /**

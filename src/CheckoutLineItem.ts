@@ -6,7 +6,7 @@ import {
   DiscountAllocation,
   Property,
   SellingPlanAllocation,
-} from "@";
+} from ".";
 
 export interface CheckoutLineItem {
   /**
