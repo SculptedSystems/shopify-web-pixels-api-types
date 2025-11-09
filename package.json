@@ -1,6 +1,6 @@
 {
   "name": "@sculptedsystems/shopify-web-pixels-api-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript type definitions for the Shopify Web Pixels API",
   "license": "MIT",
   "keywords": [
