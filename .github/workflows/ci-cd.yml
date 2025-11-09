@@ -110,9 +110,3 @@ jobs:
 
       - name: Publish to npm (Trusted Publisher)
         run: npm publish
-
-      - name: Tag release
-        run: |
-          VERSION=$(jq -r '.version' package.json)
-          git tag "v$VERSION"
-          git push origin "v$VERSION"
