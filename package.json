@@ -1,0 +1,50 @@
+{
+  "name": "@sculptedsystems/shopify-web-pixels-api-types",
+  "version": "0.0.3",
+  "description": "TypeScript type definitions for the Shopify Web Pixels API",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "web-pixels",
+    "types",
+    "typescript",
+    "definitions"
+  ],
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SculptedSystems/shopify-web-pixels-api-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SculptedSystems/shopify-web-pixels-api-types/issues"
+  },
+  "scripts": {
+    "start": "npm-run-series extract lint:fix format:fix check build",
+    "extract": "ts-node -P tsconfig.scripts.json scripts/extract-types.ts docs/web-pixels-api.md src",
+    "build": "tsc",
+    "check": "npm-run-series lint:check format:check type:check",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier --write .",
+    "type:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "npm-run-series": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3"
+  }
+}
